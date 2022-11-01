@@ -3,7 +3,6 @@ import Image from 'next/image';
 import styled from 'styled-components'
 import { BsPlayBtnFill } from 'react-icons/bs'
 export default function BannerSection() {
-
     return (
         <Root>
             <div className='background_section'>
@@ -41,6 +40,7 @@ const Root = styled.section`
     text-align:center;
     color:#292930;                     
     text-align:left;
+    overflow-x: clip;
     .main_wrap {
         display: flex;
         align-items: center;
@@ -62,6 +62,7 @@ const Root = styled.section`
             display: flex;
             align-items: center;
             gap: 30px;
+            margin-top: 30px;
             button.btn{
                 background:#6840e7;  
             }

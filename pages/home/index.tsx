@@ -1,10 +1,12 @@
 import React from 'react'
-import BannerSection from '../../component/BannerSection'
-
+import Layout from '../../component/layout'
+import Home from '../../component/home'
 export default function HomePage() {
     return (
         <div>
-            <BannerSection />
+            <Layout>
+                <Home />
+            </Layout>
         </div>
     )
 }
